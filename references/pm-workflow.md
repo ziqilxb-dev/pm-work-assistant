@@ -2,6 +2,8 @@
 
 Turn product requirements into reviewable artifacts across business domains. Preserve the user's scope and confirmed decisions.
 
+Retain the original PM workflow and its editable HTML deliverables. DingTalk and WeCom CLI add source access and collaboration; they do not replace product authoring, templates, editing, preview, save, copy or export capabilities. Platform access is optional when user-provided materials suffice.
+
 ## Start and route
 
 1. Check the requested project's `.agents/workflows/` and `.pm-workflow/installed.json`. Read only the workflow needed below. Existing files alone do not prove that required helpers are present.
@@ -20,7 +22,7 @@ Turn product requirements into reviewable artifacts across business domains. Pre
 
 - Reuse one top-level directory per requirement, with the same name across stages. Create only needed output subdirectories, including `流程图截图/` when exporting flowcharts.
 - Keep shared tooling in `scripts/`, workflow definitions in `.agents/workflows/`, implementation references in `.agents/references/`, and local runtime state in `.pm-workflow/`.
-- Use HTML unless the user requests another format. Preserve actual product terminology, platform, assets and visual conventions.
+- Use editable HTML for formal product documents and interactive HTML for prototypes unless the user requests another format or the project has an explicit format convention. Reuse the shared editor and applicable preview, save, copy and export components; Markdown summaries and static HTML shells do not substitute for the requested deliverable. Preserve actual product terminology, platform, assets and visual conventions.
 - Distinguish verified facts, user reports, hypotheses and explicitly authorized demo data. Never invent feedback, data sources or market statistics to fill a report.
 - Ask about missing decisions that affect scope, behavior or acceptance. Previously confirmed decisions stay confirmed.
 - Keep PRD, prototypes and flowcharts consistent. Check downstream acceptance items and metric definitions when their source requirements change.

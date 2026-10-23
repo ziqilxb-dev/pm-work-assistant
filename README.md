@@ -1,6 +1,6 @@
 # PM 跨平台工作助手
 
-以产品经理工作为核心：从需求沟通与会议评审中提取依据，核对变更，编写或更新PRD、原型、流程和验收清单，并跟进项目进展。按需接入钉钉和企业微信，也支持相关跨职能协作。
+以产品经理工作为核心：从需求沟通与会议评审中提取依据，核对变更，编写或更新PRD、原型、流程和验收清单，并跟进项目进展。正式产品产物默认生成可编辑HTML，保留原PM的需求挖掘、PRD、交互原型、流程图、验收清单和数据分析报告能力，以及编辑、保存备份、双栏活原型、带图复制与截图导出组件。钉钉和企业微信CLI增加资料读取与协作能力；用户指定其他格式或已有明确项目格式约定时优先遵循。普通总结可直接在聊天交付。
 
 名称与目录：`pm-work-assistant`；调用：`$pm-work-assistant`。
 
@@ -30,6 +30,8 @@ GitHub 仓库：[pm-work-assistant](https://github.com/ziqilxb-dev/pm-work-assis
 ## 作品展示与下载
 
 - [作品展示页源码](docs/index.html)（本地浏览器打开，四个虚构交互案例）
-- [完整 Skill 安装包](downloads/pm-work-assistant-20261010.zip)
+- [完整 Skill 安装包](downloads/pm-work-assistant-20261023.zip)
 
 仓库、Skill 名称与安装目录统一为 `pm-work-assistant`。
+
+当前安装包：20261023。旧版日期的兼容下载地址也提供同一份更新包；校验见 [SHA256](downloads/pm-work-assistant-20261023.zip.sha256)。
